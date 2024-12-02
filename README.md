@@ -23,6 +23,7 @@ npx electron-nb
 ```
 
 ![alt text](niubi.jpg 'Title')
+
 In chinese, NB(niubi) means "You are amazing!"
 
 ## Usage
