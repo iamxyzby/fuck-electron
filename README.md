@@ -1,32 +1,33 @@
 # fuck-electron
 
-中文 | [English](README_EN.md)
+[中文](README.md) | English
 
-如果您的 Electron 应用在 `install` 时报以下错误：
+If your Electron application reports the following error during installation:
 
 - electron postinstall: `node install.js`
 - RequestError: read ECONNRESET
 - RequestError: connect ETIMEOUT
 
-是因为 Electron 在 `install` 时需要下载位于 Github 上的二进制文件，如果没有设置镜像或者代理时，很有可能因为网络问题而导致失败。
+This is because Electron needs to download binary files from GitHub during installation. If no mirror or proxy is set up, it may fail due to network issues.
 
-您可以参考 [安装指导](https://www.electronjs.org/zh/docs/latest/tutorial/installation) 解决，也可以使用本仓库提供的命令行工具，如下所示：
+You can refer [Electron installation](https://www.electronjs.org/zh/docs/latest/tutorial/installation) to the solution, or you can use the following command.
 
 ```bash
 npx fk-electron
 ```
 
-> 命名灵感来自 [the fuck](https://github.com/nvbn/thefuck)，如果您感到被冒犯可以使用以下命令代替：
+> The naming inspired by [the fuck](https://github.com/nvbn/thefuck), If you feel offended, you can use the following command instead:
 
 ```bash
 npx electron-nb
 ```
 
-命令会自动解析 Electron 所需版本和平台，在 [npmmirror](https://registry.npmmirror.com/binary.html?path=electron) 下载对应的二进制文件到缓存目录中。
+![alt text](niubi.jpg 'Title')
+In chinese, NB(niubi) means "You are amazing!"
 
-## 使用
+## Usage
 
-您可以使用 `npx fk-electron -h` 查看帮助信息：
+You can use `npx fk-electron -h` for help message:
 
 ```bash
 npx fk-electron -h
