@@ -1,5 +1,7 @@
 # fuck-electron
 
+中文 | [English](README_EN.md)
+
 如果您的 Electron 应用在 `install` 时报以下错误：
 
 - electron postinstall: `node install.js`
@@ -11,33 +13,27 @@
 您可以参考 [安装指导](https://www.electronjs.org/zh/docs/latest/tutorial/installation) 解决，也可以使用本仓库提供的命令行工具，如下所示：
 
 ```bash
-npx fuck-electron
-# Or bun
-bunx fuck-electron
+npx fk-electron
 ```
 
 > 命名灵感来自 [the fuck](https://github.com/nvbn/thefuck)，如果您感到被冒犯可以使用以下命令代替：
 
 ```bash
-npx electron-niubi
-# Or bun
-bunx electron-niubi
+npx electron-nb
 ```
 
 命令会自动解析 Electron 所需版本和平台，在 [npmmirror](https://registry.npmmirror.com/binary.html?path=electron) 下载对应的二进制文件到缓存目录中。
 
-<!-- ![alt text](niubi.jpg 'Title') -->
-
 ## 使用
 
-您可以使用 `npx fuck-electron -h` 查看帮助信息：
+您可以使用 `npx fk-electron -h` 查看帮助信息：
 
 ```bash
-npx fuck-electron -h
+npx fk-electron -h
 
 # result
 
-Usage: [fuck-electron|electron-niubi] [OPTION]...
+Usage: [fk-electron|electron-nb] [OPTION]...
 
 Download Electron binary files from npmmirror to /Users/xxx/Library/Caches/electron/
 

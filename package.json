@@ -1,11 +1,26 @@
 {
-  "name": "fuck-electron",
-  "version": "0.0.1",
+  "name": "fk-electron",
+  "version": "0.0.2",
   "bin": {
-    "fuck-electron": "bin/index.js",
-    "electron-niubi": "bin/index.js"
+    "fk-electron": "bin/index.js",
+    "electron-nb": "bin/index.js"
   },
+  "keywords": [
+    "electron",
+    "electron install",
+    "electron postinstall"
+  ],
+  "description": "electron install helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamxyzby/fuck-electron"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/iamxyzby/fuck-electron",
   "type": "module",
+  "scripts": {
+    "build": "bun build.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest",
     "@types/minimist": "^1.2.5",

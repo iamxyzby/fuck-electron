@@ -147,7 +147,7 @@ const downloadFile = async (url: string, outputPath: string): Promise<void> => {
 }
 
 const helpMsg = (v: string, destPath: string) => `\
-Usage: [fuck-electron|electron-niubi] [OPTION]... 
+Usage: [fk-electron|electron-nb] [OPTION]... 
 
 Download Electron binary files from npmmirror to ${destPath}
 
