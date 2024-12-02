@@ -1,6 +1,6 @@
 # fuck-electron
 
-[中文](README.md) | English
+[中文](README_CN.md) | English
 
 If your Electron application reports the following error during installation:
 
