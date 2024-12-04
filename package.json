@@ -1,6 +1,6 @@
 {
   "name": "fk-electron",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "bin": {
     "fk-electron": "bin/index.js",
     "electron-nb": "bin/index.js"

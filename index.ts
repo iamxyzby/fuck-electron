@@ -160,7 +160,6 @@ Options:
 `
 
 const run = async () => {
-  console.info(process.argv)
   const config = getConfig()
   const targetDir = getTargetPath(config.currentPlatform)
   const pkg = await readPackage()
